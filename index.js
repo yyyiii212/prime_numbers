@@ -33,4 +33,9 @@ btn.addEventListener("click", function (i) {
     put1.value = null;
     list.innerHTML = result;
 
-})
+});
+document.addEventListener("keyup", function (event) {
+    if (event.code === 'Space') {
+        window.location.reload();
+    }
+});
