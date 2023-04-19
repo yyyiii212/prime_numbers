@@ -1,0 +1,81 @@
+.div1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(93, 146, 148);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+    .div1-1 {
+        width: 70%;
+        height: 150px;
+        background-color: white;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("https://memeprod.ap-south-1.linodeobjects.com/user-gif-post/1665807943063.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 150px 150px;
+        background-position: 925px center;
+
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+
+    .div1-2 {
+        width: 70%;
+        height: 400px;
+        background-color: white;
+        border-radius: 50px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .div1-2-1 {
+            height: 80px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+
+            .inp {
+                margin: 0 10px 0 10px;
+            }
+
+            .btn {
+                width: 80px;
+                height: 40px;
+                background-color: rgb(109, 174, 226);
+                margin-left: 15px;
+                font-weight: bold;
+            }
+        }
+
+        .div1-2-2 {
+            width: 90%;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            #li1 {
+                list-style: none;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: -40px;
+
+            }
+        }
+    }
+}
