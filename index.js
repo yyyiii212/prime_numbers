@@ -3,6 +3,12 @@ const put1 = document.querySelector(".inp");
 const btn = document.querySelector(".btn");
 let arr = [];
 
+put1.addEventListener('keydown', function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        btn.click();
+    }
+});
 
 btn.addEventListener("click", function (i) {
     arr.length = 0;
@@ -34,6 +40,9 @@ btn.addEventListener("click", function (i) {
     list.innerHTML = result;
 
 });
+
+
+
 document.addEventListener("keyup", function (event) {
     if (event.code === 'Space') {
         window.location.reload();
